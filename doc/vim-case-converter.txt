@@ -16,40 +16,11 @@ License                                            |vim-case-converter-license|
 
 ===============================================================================
 INSTALL                                            *vim-case-converter-install*
-
-Vim packages (Vim 8, Neovim)
 >
     mkdir -p ~/.vim/pack/lucerion/start
     cd ~/.vim/pack/lucerion/start
     git clone https://github.com/lucerion/vim-case-converter
 <
-vim-plug                                 https://github.com/junegunn/vim-plug
->
-    Plug 'lucerion/vim-case-converter'
-<
-Vundle                                https://github.com/VundleVim/Vundle.vim
->
-    Plugin 'lucerion/vim-case-converter'
-<
-Pathogen                                https://github.com/tpope/vim-pathogen
->
-    cd ~/.vim/bundle
-    git clone https://github.com/lucerion/vim-case-converter
-<
-dein.vim                                   https://github.com/Shougo/dein.vim
->
-    call dein#add('lucerion/vim-case-converter')
-<
-NeoBundle                             https://github.com/Shougo/neobundle.vim
->
-    NeoBundle 'lucerion/vim-case-converter'
-<
-Manual
->
-    git clone https://github.com/lucerion/vim-case-converter
-<
-    copy all of the files into your ~/.vim directory
-
 ===============================================================================
 COMMANDS                                          *vim-case-converter-commands*
 
